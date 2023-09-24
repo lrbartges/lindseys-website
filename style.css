@@ -3,17 +3,25 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: Arial, sans-serif;
 }
   h1 {
     text-align: center;
     font-weight: bolder;
-    font-style: oblique;
-    color: navajowhite;
-    font-family: courier new;
+    color: #333;
+    font-size: 45pt;
+    font-family: Trebuchet MS;
   }
   h2 {
     text-align: center;
     font-weight: bold;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     color: whitesmoke
   }
+  .box {
+    background-color: antiquewhite;
+    padding: 5px;
+    border: 2px solid #333;
+    opacity: 80%;
+  }
+ 

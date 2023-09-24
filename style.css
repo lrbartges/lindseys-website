@@ -11,6 +11,7 @@ body {
     color: #333;
     font-size: 45pt;
     font-family: Trebuchet MS;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
   h2 {
     text-align: center;
@@ -24,4 +25,21 @@ body {
     border: 2px solid #333;
     opacity: 80%;
   }
- 
+ #button-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+ button {
+    background-color: goldenrod;
+    color: darkslategray;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: black;
+    cursor: crosshair;
+    border-radius: 5px;
+ }
+ button:hover {
+    background-color: sienna;
+ }

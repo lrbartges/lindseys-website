@@ -1,10 +1,19 @@
 body {
-    background: rgb(128, 38, 72);
-  }
+    background-image: url(https://images.unsplash.com/photo-1693290315090-f3c3a7631a3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
   h1 {
     text-align: center;
     font-weight: bolder;
     font-style: oblique;
     color: navajowhite;
     font-family: courier new;
+  }
+  h2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+    color: whitesmoke
   }

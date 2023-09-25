@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://images.unsplash.com/photo-1693290315090-f3c3a7631a3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80);
+    background-image: url(https://images.unsplash.com/photo-1517524285303-d6fc683dddf8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -10,20 +10,27 @@ body {
     font-weight: bolder;
     color: #333;
     font-size: 45pt;
-    font-family: Trebuchet MS;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: Bradley Hand, cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.867);
   }
   h2 {
     text-align: center;
     font-weight: bold;
-    font-family: Arial, sans-serif;
-    color: whitesmoke
+    font-family: Bradley Hand, cursive;
+    color:#333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  p {
+    text-align: center;
+    font-family: Trebuchet MS;
+    color: maroon;
   }
   .box {
     background-color: antiquewhite;
     padding: 5px;
     border: 2px solid #333;
     opacity: 80%;
+    cursor: not-allowed;
   }
  #button-container {
     display:flex;
@@ -32,14 +39,17 @@ body {
     height: 100vh;
  }
  button {
-    background-color: goldenrod;
+    background-color: lavender;
     color: darkslategray;
     font-size: 20px;
     padding: 10px 20px;
     border: black;
     cursor: crosshair;
     border-radius: 5px;
+    font-family: ;
  }
  button:hover {
-    background-color: sienna;
+    background-color: rgb(86, 76, 132);
+    color: aliceblue;
+    transform: scale(1.2);
  }

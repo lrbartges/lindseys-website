@@ -1,55 +1,64 @@
 body {
-    background-image: url(https://images.unsplash.com/photo-1517524285303-d6fc683dddf8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80);
+    background-image: url(https://images.unsplash.com/photo-1694554060925-c36fa7f9918d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: Arial, sans-serif;
 }
-  h1 {
+
+h1 {
     text-align: center;
     font-weight: bolder;
-    color: #333;
-    font-size: 45pt;
+    color: aliceblue;
+    font-size: 65pt;
     font-family: Bradley Hand, cursive;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.867);
-  }
-  h2 {
+}
+
+h2 {
     text-align: center;
     font-weight: bold;
     font-family: Bradley Hand, cursive;
-    color:#333;
+    color: #333;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-  p {
+    font-size: 30pt;
+}
+
+p {
     text-align: center;
     font-family: Trebuchet MS;
-    color: maroon;
-  }
-  .box {
-    background-color: antiquewhite;
+    color: rgb(75, 62, 118);
+    font-size: 20pt;
+}
+
+.box {
+    background-color: lavender;
     padding: 5px;
     border: 2px solid #333;
-    opacity: 80%;
+    opacity: 0.8;
     cursor: not-allowed;
-  }
- #button-container {
-    display:flex;
+}
+
+#button-container {
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
- }
- button {
+}
+
+button {
     background-color: lavender;
     color: darkslategray;
     font-size: 20px;
     padding: 10px 20px;
-    border: black;
+    border: 2px solid black;
     cursor: crosshair;
     border-radius: 5px;
-    font-family: ;
- }
- button:hover {
+    font-family: Bradley Hand, sans-serif; 
+}
+
+button:hover {
     background-color: rgb(86, 76, 132);
     color: aliceblue;
     transform: scale(1.2);
- }
+}
